@@ -1,9 +1,9 @@
 const isFetching: boolean = true
 const isLoading: boolean = false
 
-const int: number = 42
-const float: number = 2.4
-const num: number = 3e10
+const int: number = 42345
+const float: number = 2.4456
+const num: number = 3e10e
 
 const message: string = 'HelloTypescript'
 
