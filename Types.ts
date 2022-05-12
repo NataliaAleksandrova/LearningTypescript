@@ -3,7 +3,7 @@ const isLoading: boolean = false
 
 const int: number = 42345
 const float: number = 2.4456
-const num: number = 3e10e
+const num: number = 3e10
 
 const message: string = 'HelloTypescript'
 
@@ -25,7 +25,7 @@ variable = 'new string'
 function sayMyName(name: string): void {
     console.log(name)
 }
-sayMyName( name: 'Хайзенберг')
+sayMyName(void 'Хайзенберг')
 
 //Never
 
@@ -38,7 +38,7 @@ function throwError(message: string): never {
 //Type
 type Login = string
 
-const login Login = 'admin' 
+const login: Login = 'admin' 
 
 type ID = string | number
 
